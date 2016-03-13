@@ -1,0 +1,21 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+    ~/.oh-my-zsh: oh-my-zsh
+    ~/.fzf: fzf
+    ~/.fzf.bash: fzf.bash
+    ~/.fzf.zsh: fzf.zsh
+    ~/.vimrc: vimconf/.vimrc
+    ~/.vim: vim
+    ~/.vimrc.first: vimrc/vimrc.first
+    ~/.vimrc.last: vimrc/vimrc.last
+    ~/.vimrc.plugins: vimrc/vimrc.plugins
+
+- shell:
+      - [git submodule update --init --recursive, Installing submodules]

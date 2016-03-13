@@ -1,0 +1,22 @@
+" UltiSnips 
+" --------------------------------------------------------
+" Force UltiSnips to not use SnipMate snippets by default 
+
+:let g:UltiSnipsEnableSnipMate=0 
+
+" Make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+let g:UltiSnipsEditSplit="vertical"
+
+" Fugitive
+" --------------------------------------------------------
+
+nnoremap <Leader>gd :Gdiff<CR>
+nnoremap <Leader>gs :Gstatus<CR>
+nnoremap <Leader>gco :Gcheckout<CR>
+nnoremap <Leader>gci :Gcommit<CR>
+nnoremap <Leader>gl :Glog<CR>
+nnoremap <Leader>gp :Git push<CR>
+nnoremap <Leader>gcaa :Git commit -a --amend -C HEAD

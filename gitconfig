@@ -1,0 +1,3 @@
+[diff]
+	external = vimdiff
+	tool = vimdiff

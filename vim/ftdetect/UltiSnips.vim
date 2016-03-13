@@ -1,0 +1,1 @@
+/home/mohsin/.vim/bundle/ultisnips/ftdetect/UltiSnips.vim

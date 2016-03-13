@@ -1,0 +1,10 @@
+" Custom bundles
+
+" write HTML code faster
+Plugin 'rstacruz/sparkup'
+" parse markdown instantly
+Plugin  'suan/vim-instant-markdown'
+" Snippets engine, uses vim-snippets
+Plugin 'SirVer/ultisnips'
+" Python auto-complete
+Plugin 'Valloric/YouCompleteMe'
