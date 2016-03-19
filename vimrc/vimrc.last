@@ -20,3 +20,12 @@ nnoremap <Leader>gci :Gcommit<CR>
 nnoremap <Leader>gl :Glog<CR>
 nnoremap <Leader>gp :Git push<CR>
 nnoremap <Leader>gcaa :Git commit -a --amend -C HEAD
+
+" vim-autoclose 
+" --------------------------------------------------------
+
+" Auto close maps some keys that create conflict with YCM
+" if Dot Registry is preserved, since auto-close in coming 
+" from a submodule, I can't disable it so this is a workaround
+
+let g:AutoClosePreserveDotReg = 0
