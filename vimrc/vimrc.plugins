@@ -8,3 +8,5 @@ Plugin  'suan/vim-instant-markdown'
 Plugin 'SirVer/ultisnips'
 " Python auto-complete
 Plugin 'Valloric/YouCompleteMe'
+" For some reason this was removed from timss/vimconf 
+Plugin  'easymotion/vim-easymotion'
