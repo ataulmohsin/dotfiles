@@ -7,6 +7,8 @@ Plugin  'suan/vim-instant-markdown'
 " Snippets engine, uses vim-snippets
 Plugin 'SirVer/ultisnips'
 " Python auto-complete
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 " For some reason this was removed from timss/vimconf 
 Plugin  'easymotion/vim-easymotion'
+" Replacing YouCompleteMe with this 
+Plugin 'davidhalter/jedi-vim'
