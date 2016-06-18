@@ -119,6 +119,11 @@ export PATH="/home/mohsin/.rvm/gems/ruby-2.1.2/bin:/home/mohsin/.rvm/gems/ruby-2
 
 source $ZSH/oh-my-zsh.sh
 
+# virtualenvwrapper 
+#
+source '/usr/local/bin/virtualenvwrapper.sh'
+WORKON_HOME='/home/mohsin/Envs'
+
 # You may need to manually set your language environment
  #export LANG="en_US.UTF-8"
 
