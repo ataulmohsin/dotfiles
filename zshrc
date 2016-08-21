@@ -7,9 +7,9 @@ export ZSH=/home/mohsin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-ZSH_THEME="agnoster"
-#ZSH_THEME="random"
+#ZSH_THEME="powerlevel9k"
+#ZSH_THEME="agnoster"
+ZSH_THEME="random"
 
 # Powerlelevl9k variables
 POWERLEVEL9K_MODE='awesome-patched'
@@ -114,7 +114,7 @@ plugins=(git python django common-aliases)
 
 # User configuration
 
-export PATH="/home/mohsin/.rvm/gems/ruby-2.1.2/bin:/home/mohsin/.rvm/gems/ruby-2.1.2@global/bin:/home/mohsin/.rvm/rubies/ruby-2.1.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/mohsin/.rvm/bin:/home/mohsin/.rvm/bin"
+export PATH="/home/mohsin/.rvm/gems/ruby-2.1.2/bin:/home/mohsin/.rvm/gems/ruby-2.1.2@global/bin:/home/mohsin/.rvm/rubies/ruby-2.1.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/mohsin/.rvm/bin:/home/mohsin/.rvm/bin:/home/mohsin/Envs/glci-dev/lib/python2.7/site-packages/pygraphviz"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
