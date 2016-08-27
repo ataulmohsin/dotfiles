@@ -91,3 +91,6 @@
 [submodule "jedi-vim"]
 	path = vim/bundle/jedi-vim
     url = https://github.com/davidhalter/jedi-vim
+[submodule "spectrumyzer"]
+	path = spectrumyzer
+	url = https://github.com/HaCk3Dq/spectrumyzer/
