@@ -17,10 +17,6 @@
     ~/.vimrc.last: vimrc/vimrc.last
     ~/.vimrc.plugins: vimrc/vimrc.plugins
     ~/.tmux.conf: tmux.conf
-    ~/.spectrum: spectrumyzer/spectrumyzer.py 
-    ~/.spectrum.conf: spectrum.conf
-    # Awesome WM
-    ~/.config/awesome: awesome
 
 - shell:
       - [git submodule update --init --recursive, Installing submodules]
