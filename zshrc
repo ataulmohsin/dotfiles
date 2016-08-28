@@ -7,13 +7,13 @@ export ZSH=/home/mohsin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="avit"
+ZSH_THEME="afowler"
 
 # Powerlelevl9k variables
 #POWERLEVEL9K_MODE='awesome-patched'
-##POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-##POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%{%F{249}%}\u250f"
-##POWERLEVEL9K_MULTILINE_SECOND_PROMPT_PREFIX="%{%F{249}%}\u2517%{%F{default}%} "
+#POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+#POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%{%F{249}%}\u250f"
+#POWERLEVEL9K_MULTILINE_SECOND_PROMPT_PREFIX="%{%F{249}%}\u2517%{%F{default}%} "
 #POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 #POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
 #POWERLEVEL9K_OS_ICON_BACKGROUND="black"
@@ -146,6 +146,8 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # Example aliases
 alias zshrc="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias vimrc="vim ~/.vimrc"
+alias awesomerc="vim ~/.config/rc.lua"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
