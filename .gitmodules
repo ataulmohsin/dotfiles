@@ -94,6 +94,3 @@
 [submodule "spectrumyzer"]
 	path = spectrumyzer
 	url = https://github.com/HaCk3Dq/spectrumyzer/
-[submodule "awesome/awesome-copycats"]
-	path = awesome/awesome-copycats
-	url = https://github.com/copycat-killer/awesome-copycats
