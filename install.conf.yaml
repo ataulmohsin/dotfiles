@@ -20,6 +20,7 @@
     ~/.config/awesome: awesome
     ~/.weechat/weechat.conf: weechat/weechat.conf
     ~/.rainbow_config.json: rainbow/rainbow_config.json
+    ~/.xinitrc: xinitrc
 
 - shell:
       - [git submodule update --init --recursive, Installing submodules]
