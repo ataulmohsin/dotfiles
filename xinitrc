@@ -1,6 +1,4 @@
 #!/bin/sh
-#
-# User's .xinitrc file
 
 # Merge custom X resources
 xrdb -merge "${HOME}/.Xresources"
