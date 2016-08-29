@@ -7,7 +7,7 @@ export ZSH=/home/mohsin/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="avit"
+ZSH_THEME="afowler"
 
 # Powerlelevl9k variables
 #POWERLEVEL9K_MODE='awesome-patched'
@@ -146,6 +146,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # Example aliases
 alias zshrc="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias awesomerc="vim ~/.config/awesome/rc.lua"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
