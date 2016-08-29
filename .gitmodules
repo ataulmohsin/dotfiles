@@ -103,3 +103,6 @@
 [submodule "awesome/lain"]
 	path = awesome/lain
 	url = https://github.com/copycat-killer/lain 
+[submodule "awesome/awesome-shifty"]
+	path = awesome/awesome-shifty
+	url = git://github.com/cdump/awesome-shifty
