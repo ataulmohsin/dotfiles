@@ -19,6 +19,7 @@
     ~/.tmux.conf: tmux.conf
     ~/.config/awesome: awesome
     ~/.weechat/weechat.conf: weechat/weechat.conf
+    ~/.weechat/perl: weechat/perl
     ~/.rainbow_config.json: rainbow/rainbow_config.json
     ~/.xinitrc: xinitrc
 
