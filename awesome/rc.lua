@@ -47,7 +47,6 @@ function run_once(cmd)
   awful.util.spawn_with_shell("pgrep -u $USER -x " .. findme .. " > /dev/null || (" .. cmd .. ")")
 end
 
-run_once("urxvtd")
 run_once("unclutter -root")
 -- }}}
 
@@ -59,7 +58,7 @@ beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/holo/theme.lua")
 -- common
 modkey     = "Mod4"
 altkey     = "Mod1"
-terminal   = "urxvtc" or "xterm"
+terminal   = "terminator"
 editor     = os.getenv("EDITOR") or "nano" or "vi"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -67,7 +66,7 @@ editor_cmd = terminal .. " -e " .. editor
 browser    = "firefox"
 gui_editor = "gvim"
 graphics   = "gimp"
-musicplr   = terminal .. " -e ncmpcpp "
+musicplr   = terminal .. " -e cmus"
 
 local layouts = {
     awful.layout.suit.floating,
