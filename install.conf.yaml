@@ -21,6 +21,7 @@
     ~/.weechat/weechat.conf: weechat/weechat.conf
     ~/.weechat/perl: weechat/perl
     ~/.rainbow_config.json: rainbow/rainbow_config.json
+    ~/.config/cmus/rc: cmus/rc
     ~/.xinitrc: xinitrc
 
 - shell:
